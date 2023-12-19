@@ -7,3 +7,6 @@
   font-size: 20px;
   list-style-type: none;
 }
+.header-container > li:hover {
+  cursor: pointer;
+}
