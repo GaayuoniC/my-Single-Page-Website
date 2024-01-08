@@ -1,4 +1,4 @@
-.header-container {
+/* .header-container {
   display: flex;
   gap: 40px;
   justify-content: flex-end;
@@ -9,4 +9,4 @@
 }
 .header-container > li:hover {
   cursor: pointer;
-}
+} */
