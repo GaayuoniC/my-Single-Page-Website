@@ -1,8 +1,34 @@
+.home-container {
+  margin-top: 20px;
+  /* Specifies the number of columns that you need, gap
+  and the rule style below: */
+  column-count: 2;
+  column-gap: 10px;
+  /* column-rule-style: solid; */
+  column-rule-width: 1px;
+  column-rule-color: lightblue;
+  /* all the above single rules can be conbined into one
+  rule line with the 'column-rule: 1px solid lightblue' property */
+}
+h2 {
+  column-span: all;
+}
 #main-christian-page {
-  width: 300x;
-  height: 200px;
-  border: 1px solid transparent;
-  border-radius: 8px;
+  width: 500px;
+  border: 0 solid transparent;
+  /* border-radius: 8px; */
   margin-top: 10px;
   box-shadow: 5px 5px 10px whitesmoke;
+}
+.container-item-1 {
+  margin-bottom: 20px;
+}
+.container-item-3 {
+  text-align: justify;
+  padding: 20px;
+}
+.container-item-3 > p {
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 600;
 }
