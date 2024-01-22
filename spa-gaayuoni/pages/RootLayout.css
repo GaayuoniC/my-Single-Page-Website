@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  align-items: center;
+  /* aligngs all the items in a line */
+  justify-content: space-between;
+  /* puts space between the two main divs */
+  border-bottom: 1px solid grey;
+}
+
+nav > .logo {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+nav > .desktop-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+nav > .desktop-menu > li {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+nav > .desktop-menu > li:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+nav > .mobile-menu {
+  display: none;
+  /* initially this will not be displayed in the desktop version */
+  list-style-type: none;
+  font-size: 0.85rem;
+
+  flex-direction: column;
+  /* when displayed the flex direction will also change to column */
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 100px;
+  /* border: 1px solid gray; */
+  /* fixed the position in the mobile menu */
+  text-align: center;
+}
+nav > .mobile-menu > li {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 1rem 0;
+}
+nav > .mobile-menu > li:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.mobile-menu-button {
+  display: none;
+  /* initially set to not display */
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  nav > .desktop-menu {
+    display: none !important;
+    /* the menu will not show at this break point */
+  }
+  nav > .mobile-menu {
+    display: flex !important;
+  }
+  .mobile-menu-button {
+    display: block !important;
+  }
+}
