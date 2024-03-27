@@ -1,0 +1,32 @@
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#quote-of-day {
+  font-size: 24px;
+  font-style: italic;
+}
+#quote {
+  font-size: 32px;
+}
+.main-quote {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.main-quote > p:first-child {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 414px) {
+  .main-quote {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
+  .main-quote {
+    flex-direction: column;
+  }
+}

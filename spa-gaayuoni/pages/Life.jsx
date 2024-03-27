@@ -1,6 +1,7 @@
-
-export function Life(){
-    return (<>
-    <h2>Living life</h2>
-    
- </>)}
+export function Life() {
+  return (
+    <>
+      <h2>Living life</h2>
+    </>
+  );
+}

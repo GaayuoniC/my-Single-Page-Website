@@ -11,7 +11,7 @@
   rule line with the 'column-rule: 1px solid lightblue' property */
 }
 h2 {
-  column-span: all;
+  column-span: all; /* cuts across both columns*/
 }
 #main-christian-page {
   width: 500px;

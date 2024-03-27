@@ -1,4 +1,5 @@
-import { Header } from "../components/Header";
+// import { Header } from "../components/Header";
+import { RandomQuotes } from "../components/RandomQuotes";
 import christian from "../src/images/christian.jpeg";
 import "./HomePage.css";
 
@@ -28,12 +29,19 @@ export function HomePage() {
           I started developing right from the first day that I started my
           <strong> Frontend Web and App </strong> developement Bootcamp with{" "}
           <strong>
-            <a href="https://talents.taktsoft.com/" target="_blank">
-              Taktsoft Campust Talents {""}
+            <a
+              href="https://talents.taktsoft.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Taktsoft Campust Talents{" "}
             </a>
-          </strong>
+          </strong>{" "}
           in Bonn, Germany.
         </p>
+      </div>
+      <div className="quotes-container">
+        <RandomQuotes />
       </div>
     </div>
   );
