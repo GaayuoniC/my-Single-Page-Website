@@ -15,7 +15,8 @@ h2 {
 }
 #main-christian-page {
   width: 500px;
-  border: 0 solid transparent;
+
+  border: 1px solid transparent;
   /* border-radius: 8px; */
   margin-top: 10px;
   box-shadow: 5px 5px 10px whitesmoke;

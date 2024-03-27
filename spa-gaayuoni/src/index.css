@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --border: 1px solid transparent;
+  --border-radius: 10px;
+  --border-line: 1px solid black;
+  --background-custom-color: rgba(245, 245, 245, 1);
+  --box-shadow: 8px 8px 2px 0 rgba(41, 39, 39, 0.5);
 }
 * {
   border: 0;
